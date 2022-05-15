@@ -540,12 +540,12 @@ const Home = (props: HomeProps) => {
           <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                 src="logo.png"/></a></Logo>
           <Menu>
-            <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+            <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Mint a SolBear</a>
             </li>
             <li><a href="http://localhost:3000/" target="_blank"
-                   rel="noopener noreferrer">Menu 2</a></li>
+                   rel="noopener noreferrer">How to Purchase SolBear?</a></li>
             <li><a href="http://localhost:3000/" target="_blank"
-                   rel="noopener noreferrer">Menu 3</a></li>
+                   rel="noopener noreferrer">What is a NFT?</a></li>
           </Menu>
           <Wallet>
             {wallet ?
@@ -558,7 +558,7 @@ const Home = (props: HomeProps) => {
         <MintContainer>
           <DesContainer>
             <NFT elevation={3}>
-              <h2>My NFT</h2>
+              <h2>Mint A SolBear!</h2>
               <br/>
               <div><Price
                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
