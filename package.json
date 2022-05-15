@@ -71,6 +71,6 @@
     "@babel/plugin-syntax-class-properties": "^7.12.13",
     "@types/canvas-confetti": "^1.4.2",
     "@types/styled-components": "^5.1.14",
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^4.0.0"
   }
 }
