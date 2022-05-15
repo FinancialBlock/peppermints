@@ -26,6 +26,7 @@ import {
 import "./App.css";
 import Home from "./Home";
 
+
 require('@solana/wallet-adapter-react-ui/styles.css');
 
 
