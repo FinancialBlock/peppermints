@@ -1,6 +1,6 @@
 {
   "name": "candy-machine-mint",
-  "homepage": " https://financialblock.github.io/peppermints/",
+  "homepage": " https://mintasolbears.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -47,6 +47,7 @@
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
+
   },
   "eslintConfig": {
     "extends": [
