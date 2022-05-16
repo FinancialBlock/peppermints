@@ -656,7 +656,7 @@ const Home = (props: HomeProps) => {
             <Des elevation={2}>
               <GoldTitle style={{textAlign: "center"}}>How to Mint a Billionaire SolBear?</GoldTitle>
               <LogoAligner><img src="logo.png" alt=""></img></LogoAligner>
-              <p>1.) Download and install a Chrome browser plugin called Phantom. This will allow websites (that you authorize) access to your Solana account.</p>
+              <p> 1.) Download and install a Chrome browser plugin called Phantom. This will allow websites (that you authorize) access to your Solana account.</p>
               <p> 2.) If you made a new account, buy some Solana. The Solana plugin has a button that will
                 allow you to buy Solana from an exchange.</p>
               <p>3.) Once you have the plugin installed, this website will recognize it and add buttons that allow you to bid on,

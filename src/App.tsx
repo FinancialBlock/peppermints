@@ -1,5 +1,5 @@
 import { createTheme, ThemeProvider } from "@material-ui/core";
-import { useMemo } from "react";
+import {ReactNode, useMemo} from "react";
 import {
     ConnectionProvider,
     WalletProvider,
@@ -65,6 +65,10 @@ const theme = createTheme({
     },
 });
 
+function BrowserRouter(props: { basename: string, children: ReactNode }) {
+  return null;
+}
+
 const App = () => {
     // Custom RPC endpoint.
   const endpoint = useMemo(() => clusterApiUrl(network), []);
@@ -88,6 +92,7 @@ const App = () => {
     );
 
   return (
+
       <ThemeProvider theme={theme}>
         <ConnectionProvider endpoint={endpoint}>
           <WalletProvider wallets={wallets} autoConnect={true}>
@@ -102,6 +107,7 @@ const App = () => {
           </WalletProvider>
         </ConnectionProvider>
       </ThemeProvider>
+
   );
 };
 
