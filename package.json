@@ -1,8 +1,8 @@
 {
   "name": "candy-machine-mint",
-  "homepage": "https://financialblock.github.io/peppermints",
+  "homepage": " https://financialblock.github.io",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@babel/core": "^7.0.0",
     "@babel/runtime": "7.x",
@@ -41,13 +41,12 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
-
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -72,6 +71,6 @@
     "@babel/plugin-syntax-class-properties": "^7.12.13",
     "@types/canvas-confetti": "^1.4.2",
     "@types/styled-components": "^5.1.14",
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^4.0.0"
   }
 }
