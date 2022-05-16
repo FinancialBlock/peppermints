@@ -1,6 +1,6 @@
 {
-  "name": "Mint-A-SolBear",
-  "homepage": "https://financialblock.github.io/peppermints",
+  "name": "candy-machine-mint",
+  "homepage": " https://financialblock.github.io/peppermints/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
