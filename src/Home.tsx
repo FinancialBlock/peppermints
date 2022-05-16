@@ -648,14 +648,12 @@ const Home = (props: HomeProps) => {
           <DesContainer>
             <Des elevation={2}>
               <GoldTitle style={{textAlign:"center"}}>Welcome to Mint A SolBear!</GoldTitle>
-             {/* <LogoAligner><img src="logo.png" alt=""></img></LogoAligner>*/}
               <p style={{textAlign: "center"}}>The Billionaire SolBear Collection is 11,501 unique collectable SolBears with proof of ownership on the Solana blockchain.
                 Your Billionaire SolBear is more then just an NFT it is a membership card, and grants access to members-only benefits. When you own an SolBear NFT and HODL grants you a
                 Lifetime membership to the Private Club. Our team looks to use blockchain technology to enhance the community. Collect some cool digital art and join us on our journey ! The fastest Bear is a SolBear don’t forget it ! </p>
             </Des>
             <Des elevation={2}>
               <GoldTitle style={{textAlign: "center"}}>How to Mint a Billionaire SolBear?</GoldTitle>
-             {/* <LogoAligner><img src="logo.png" alt=""></img></LogoAligner>*/}
               <p> 1.) Download and install a Chrome browser plugin called Phantom. This will allow websites (that you authorize) access to your Solana account.</p>
               <p> 2.) If you made a new account, buy some Solana. The Solana plugin has a button that will
                 allow you to buy Solana from an exchange.</p>
@@ -665,7 +663,6 @@ const Home = (props: HomeProps) => {
             </Des>
             <Des elevation={2}>
               <GoldTitle style={{textAlign: "center"}}>What is an NFT?</GoldTitle>
-             {/* <LogoAligner ><img src="logo.png" alt=""></img></LogoAligner>*/}
               <p>Non-fungible tokens (NFTs) are cryptographic assets on a blockchain with unique identification codes and
                 metadata that distinguish them from each other. Unlike cryptocurrencies, they cannot be traded or exchanged at equivalency. This differs from fungible tokens like cryptocurrencies,
                 which are identical to each other and, therefore, can serve as a medium for commercial transactions.</p>
