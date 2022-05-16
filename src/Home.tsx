@@ -240,6 +240,7 @@ const ShimmerTitle = styled.h1`
 
 const GoldTitle = styled.h2`
   color: var(--title-text-color);
+  align-content: center;
 `;
 
 const LogoAligner = styled.div`
@@ -542,7 +543,7 @@ const Home = (props: HomeProps) => {
           <Menu>
             <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Mint a SolBear</a>
             </li>
-            <li><a href="http://localhost:3000/" target="_blank"
+            <li><a href="http://mintasolbears/" target="_blank"
                    rel="noopener noreferrer">How to Purchase SolBear?</a></li>
             <li><a href="http://localhost:3000/" target="_blank"
                    rel="noopener noreferrer">What is a NFT?</a></li>
@@ -646,31 +647,40 @@ const Home = (props: HomeProps) => {
           </DesContainer>
           <DesContainer>
             <Des elevation={2}>
-              <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Welcome to Billionaire Bears Society</GoldTitle></LogoAligner>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt.</p>
+              <GoldTitle style={{textAlign:"center"}}>Welcome to Mint A SolBear!</GoldTitle>
+              <LogoAligner><img src="logo.png" alt=""></img></LogoAligner>
+              <p style={{textAlign: "center"}}>The Billionaire SolBear Collection is 11,501 unique collectable SolBears with proof of ownership on the Solana blockchain.
+                Your Billionaire SolBear is more then just an NFT it is a membership card, and grants access to members-only benefits. When you own an SolBear NFT and HODL grants you a
+                Lifetime membership to the Private Club. Our team looks to use blockchain technology to enhance the community. Collect some cool digital art and join us on our journey ! The fastest Bear is a SolBear don’t forget it ! </p>
             </Des>
             <Des elevation={2}>
-              <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>How to Mint a Billionaire SolBear?</GoldTitle></LogoAligner>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt.</p>
+              <GoldTitle style={{textAlign: "center"}}>How to Mint a Billionaire SolBear?</GoldTitle>
+              <LogoAligner><img src="logo.png" alt=""></img></LogoAligner>
+              <p>1.) Download and install a Chrome browser plugin called Phantom. This will allow websites (that you authorize) access to your Solana account.</p>
+              <p> 2.) If you made a new account, buy some Solana. The Solana plugin has a button that will
+                allow you to buy Solana from an exchange.</p>
+              <p>3.) Once you have the plugin installed, this website will recognize it and add buttons that allow you to bid on,
+                buy and sell Bears directly in the interface.</p>
+              <p>4.) For example, you can buy Billionaire Bears for 20.95 SOL .</p>
             </Des>
             <Des elevation={2}>
-              <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>What is an NFT?</GoldTitle></LogoAligner>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dcdo eiusmod tempor
-                incididunt.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt.</p>
+              <GoldTitle style={{textAlign: "center"}}>What is an NFT?</GoldTitle>
+              <LogoAligner ><img src="logo.png" alt=""></img></LogoAligner>
+              <p>Non-fungible tokens (NFTs) are cryptographic assets on a blockchain with unique identification codes and
+                metadata that distinguish them from each other. Unlike cryptocurrencies, they cannot be traded or exchanged at equivalency. This differs from fungible tokens like cryptocurrencies,
+                which are identical to each other and, therefore, can serve as a medium for commercial transactions.</p>
+              <ul>
+                <li>NFTs are unique cryptographic tokens that exist on a blockchain and cannot be replicated.</li>
+                <li>NFTs can represent real-world items like artwork and real estate.</li>
+                 <li> "Tokenizing" these real-world tangible assets makes buying, selling, and trading them more efficient while reducing the probability of fraud.</li>
+                <li>NFTs can also function to represent individuals' identities, property rights, and more.</li>
+              </ul>
+              <p>
+                Much of the current market for NFTs is centered around collectibles, such as digital artwork, sports cards, and rarities.
+                Perhaps the most hyped space is NBA Top Shot, a place to collect non-fungible tokenized NBA moments in digital card form.
+                Some of these cards have sold for millions of dollars.3 Recently, Twitter's (TWTR) Jack Dorsey tweeted a link to a tokenized
+                version of the first tweet ever, in which he wrote: "just setting up my twttr." The NFT version of the first-ever tweet sold for more than $2.9 million
+                </p>
             </Des>
           </DesContainer>
         </MintContainer>
