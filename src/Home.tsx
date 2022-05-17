@@ -243,14 +243,6 @@ const GoldTitle = styled.h2`
   align-content: center;
 `;
 
-const LogoAligner = styled.div`
-  display: flex;
-  align-items: center;
-  img {
-    max-height: 35px;
-    margin-right: 10px;
-  }
-`;
 
 
 export interface HomeProps {
@@ -541,7 +533,7 @@ const Home = (props: HomeProps) => {
           <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                 src="logo.png"/></a></Logo>
           <Menu>
-            <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Mint a SolBear</a>
+            <li><a href="https://www.billionairesolbears.com" target="_blank" rel="noopener noreferrer">Mint a SolBear</a>
             </li>
             <li><a href="http://mintasolbears/" target="_blank"
                    rel="noopener noreferrer">How to Purchase SolBear?</a></li>
@@ -673,11 +665,18 @@ const Home = (props: HomeProps) => {
                 <li>NFTs can also function to represent individuals' identities, property rights, and more.</li>
               </ul>
               <p>
-                Much of the current market for NFTs is centered around collectibles, such as digital artwork, sports cards, and rarities.
-                Perhaps the most hyped space is NBA Top Shot, a place to collect non-fungible tokenized NBA moments in digital card form.
-                Some of these cards have sold for millions of dollars.3 Recently, Twitter's (TWTR) Jack Dorsey tweeted a link to a tokenized
-                version of the first tweet ever, in which he wrote: "just setting up my twttr." The NFT version of the first-ever tweet sold for more than $2.9 million
-                </p>
+                Much of the current market for NFTs is centered around collectibles, such as digital artwork, sports cards, music,
+                3D objects, lands and rarities. Perhaps the most hyped space is NFT Collectable communities, a place to collect
+                non-fungible tokenized that offer authorized.
+
+                A great comparison to understand how a Solbears NFT works is comparing it to the classic Ty Bears. Everyones
+                favorite uniques beanie collections. I am pretty sure everyone has seen their parents or even grandparents
+                holding on to a collectible Ty Bear. One of the unique things about Ty Bears and what makes some so valuable
+                is due to their rarity and uniqueness. Design quirks made certain beanie babies more valuable. For example,
+                Patti the Platypus came in several colors, which made buyers and collectors want to purchase the complete sets
+                of collections. Tie-dyed beanie babies, such as Peace the Bear, were also popular. This is the same thing SolBears
+                except SolBears is also a membership you can hold compatible with any Solana wallet and fully owned and tradable.
+              </p>
             </Des>
           </DesContainer>
         </MintContainer>

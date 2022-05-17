@@ -1,5 +1,5 @@
 import { createTheme, ThemeProvider } from "@material-ui/core";
-import {ReactNode, useMemo} from "react";
+import { useMemo} from "react";
 import {
     ConnectionProvider,
     WalletProvider,
@@ -64,10 +64,6 @@ const theme = createTheme({
         },
     },
 });
-
-function BrowserRouter(props: { basename: string, children: ReactNode }) {
-  return null;
-}
 
 const App = () => {
     // Custom RPC endpoint.
