@@ -652,9 +652,9 @@ const Home = (props: HomeProps) => {
         <li><a href="http://localhost:3000/" target="_blank"
                rel="noopener noreferrer">What is a NFT?</a></li>
       </Menu>
-      <MainContainer className="maincontainer">
+      <DesContainer className="maincontainer">
         <LeftContainer className="leftcontainer">
-          <Image className="nft-image" src="SolBear.gif" alt="Mint a YOURNFT" />
+          <Image className="nft-image" src="SolBear.gif" alt="Mint a YOURNFT"/>
         </LeftContainer>
         <RightContainer className="rightcontainer" style={{color: "blue", alignItems: "center", alignContent: "center", textAlign: "center"}}>
           <ShimmerTitle className="maintitle">Billionaire SolBears</ShimmerTitle>
@@ -665,7 +665,7 @@ const Home = (props: HomeProps) => {
             <Price className="price">Price ◎ {isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " ") : (price + " ")} </Price>
             <IconContainer>
               <IconLink className="infoIcon" href="https://www.billionairesolbears.com/" target="__blank"> <InfoIcon src="website.svg" /> </IconLink>
-              <IconLink className="infoIcon" href="https://www.discord.com/" target="__blank"> <InfoIcon src="discord.svg" /> </IconLink>
+              <IconLink className="infoIcon" href="https://discord.gg/MrCtgHQ2" target="__blank"> <InfoIcon src="discord.svg" /> </IconLink>
               <IconLink className="infoIcon" href="https://www.twitter.com/" target="__blank"> <InfoIcon src="twitter.svg" /> </IconLink>
             </IconContainer>
           </InfoContainer>
@@ -737,7 +737,7 @@ const Home = (props: HomeProps) => {
           {wallet && isActive && solanaExplorerLink &&
             <SolExplorerLink href={solanaExplorerLink} target="_blank">View on Solscan</SolExplorerLink>}
         </RightContainer>
-      </MainContainer>
+      </DesContainer>
       <Snackbar
         open={alertState.open}
         autoHideDuration={6000}

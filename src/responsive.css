@@ -8,6 +8,7 @@
   .leftcontainer {
     width: 40% !important;
     max-width: 40% !important;
+    color: #141515;
   }
 }
 
@@ -22,6 +23,7 @@
   .maincontainer {
     flex-direction: column !important;
     justify-content: center;
+
 
   }
 }
