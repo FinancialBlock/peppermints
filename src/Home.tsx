@@ -652,7 +652,7 @@ const Home = (props: HomeProps) => {
         <li><a href="http://localhost:3000/" target="_blank"
                rel="noopener noreferrer">What is a NFT?</a></li>
       </Menu>
-      <DesContainer className="maincontainer">
+      <MainContainer className="maincontainer">
         <LeftContainer className="leftcontainer">
           <Image className="nft-image" src="SolBear.gif" alt="Mint a Bearsol"/>
         </LeftContainer>
@@ -737,7 +737,7 @@ const Home = (props: HomeProps) => {
           {wallet && isActive && solanaExplorerLink &&
             <SolExplorerLink href={solanaExplorerLink} target="_blank">View on Solscan</SolExplorerLink>}
         </RightContainer>
-      </DesContainer>
+      </MainContainer>
       <Snackbar
         open={alertState.open}
         autoHideDuration={6000}
