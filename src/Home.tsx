@@ -178,6 +178,11 @@ const DesContainer = styled.div`
   gap: 20px;
 `;
 
+const Backgrounds = styled.div`
+  opacity: 0.5;
+  background-color: #141515;
+`;
+
 const ConnectButton = styled(WalletMultiButton)`
   border-radius: 7px !important;
   padding: 30px;
@@ -652,11 +657,11 @@ const Home = (props: HomeProps) => {
         <li><a href="http://localhost:3000/" target="_blank"
                rel="noopener noreferrer">What is a NFT?</a></li>
       </Menu>
-      <MainContainer className="maincontainer">
+      <MainContainer className="maincontainer" style={{opacity: 0.8}}>
         <LeftContainer className="leftcontainer">
           <Image className="nft-image" src="SolBear.gif" alt="Mint a Bearsol"/>
         </LeftContainer>
-        <RightContainer className="rightcontainer" style={{color: "blue", alignItems: "center", alignContent: "center", textAlign: "center"}}>
+        <RightContainer className="rightcontainer" style={{backgroundColor: "black", alignItems: "center", alignContent: "center", textAlign: "center"}}>
           <ShimmerTitle className="maintitle">Bearsol Billionaire</ShimmerTitle>
 
           <ShimmerTitle className="maintitle">NFT Collection</ShimmerTitle>
