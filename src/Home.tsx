@@ -645,19 +645,19 @@ const Home = (props: HomeProps) => {
       <Menu style={{alignItems: "center"}}>
         <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                               src="logo.png"/></a></Logo>
-        <li><a href="https://www.billionairesolbears.com" target="_blank" rel="noopener noreferrer">Mint a SolBear</a>
+        <li><a href="https://www.bearsol.io" target="_blank" rel="noopener noreferrer">Mint a Bearsol</a>
         </li>
         <li><a href="http://mintasolbears/" target="_blank"
-               rel="noopener noreferrer">How to Purchase SolBear?</a></li>
+               rel="noopener noreferrer">How to Purchase Bearsol?</a></li>
         <li><a href="http://localhost:3000/" target="_blank"
                rel="noopener noreferrer">What is a NFT?</a></li>
       </Menu>
       <DesContainer className="maincontainer">
         <LeftContainer className="leftcontainer">
-          <Image className="nft-image" src="SolBear.gif" alt="Mint a YOURNFT"/>
+          <Image className="nft-image" src="SolBear.gif" alt="Mint a Bearsol"/>
         </LeftContainer>
         <RightContainer className="rightcontainer" style={{color: "blue", alignItems: "center", alignContent: "center", textAlign: "center"}}>
-          <ShimmerTitle className="maintitle">Billionaire SolBears</ShimmerTitle>
+          <ShimmerTitle className="maintitle">Bearsol Billionaire</ShimmerTitle>
 
           <ShimmerTitle className="maintitle">NFT Collection</ShimmerTitle>
           <InfoContainer>
@@ -669,7 +669,7 @@ const Home = (props: HomeProps) => {
               <IconLink className="infoIcon" href="https://www.twitter.com/" target="__blank"> <InfoIcon src="twitter.svg" /> </IconLink>
             </IconContainer>
           </InfoContainer>
-          <ProjectDescription> The Billionaire SolBears collection is a collection of unique NFT Solana Bears built on the Solana Blockchain! Our team is looking to build faster and more cost efficient way to process NFT's on the blockchain. Join us and mint your own Billionaire SolBear! </ProjectDescription>
+          <ProjectDescription> The Bearsol Billionaire collection is a collection of unique NFT Solana Bears built on the Solana Blockchain! Our team is looking to build faster and more cost efficient way to process NFT's on the blockchain. Join us and mint your own Bearsol Billionaire! </ProjectDescription>
           <MintButtonContainer>
             {!isActive && !isEnded && candyMachine ?.state.goLiveDate && (!isWLOnly || whitelistTokenBalance > 0) ? (
               <Countdown
@@ -752,18 +752,18 @@ const Home = (props: HomeProps) => {
       </Snackbar>
   <DesContainer>
     <Des elevation={2}>
-      <GoldTitle style={{textAlign:"center"}}>Welcome to Mint A SolBear!</GoldTitle>
-      <p style={{textAlign: "center"}}>The Billionaire SolBear Collection is 11,501 unique collectable SolBears with proof of ownership on the Solana blockchain.
-        Your Billionaire SolBear is more then just an NFT it is a membership card, and grants access to members-only benefits. When you own an SolBear NFT and HODL grants you a
-        Lifetime membership to the Private Club. Our team looks to use blockchain technology to enhance the community. Collect some cool digital art and join us on our journey ! The fastest Bear is a SolBear don’t forget it ! </p>
+      <GoldTitle style={{textAlign:"center"}}>Welcome to Mint A Bearsol!</GoldTitle>
+      <p style={{textAlign: "center"}}>The Bearsol Billionaire Collection is 11,501 unique collectable Bearsol with proof of ownership on the Solana blockchain.
+        Your Bearsol Billionaire is more then just an NFT it is a membership card, and grants access to members-only benefits. When you own an Bearsol NFT and HODL grants you a
+        Lifetime membership to the Private Club. Our team looks to use blockchain technology to enhance the community. Collect some cool digital art and join us on our journey ! The fastest Bear is a Bearsol don’t forget it ! </p>
       </Des>
     <Des elevation={2}>
-      <GoldTitle style={{textAlign: "center"}}>How to Mint a Billionaire SolBear?</GoldTitle>
+      <GoldTitle style={{textAlign: "center"}}>How to Mint a Billionaire Bearsol?</GoldTitle>
       <p> 1.) Download and install a Chrome browser plugin called <a style={{color: "#93ccea"}} href="https://phantom.app/">Phantom</a>, <a style={{color: "#93ccea"}} href="https://solflare.com/">Solflare</a> and <a style={{color: "#93ccea"}} href="https://slope.finance/">Slope Finance</a>. This will allow websites (that you authorize) access to your Solana account.</p>
       <p> 2.) If you made a new account, buy some Solana. The Solana plugin has a button that will
         allow you to buy Solana from an exchange.</p>
       <p>3.) Once you have the plugin installed, this website will recognize it and add buttons that allow you to bid on,
-        buy and sell Bears directly in the interface.</p>
+        buy and sell Bearsols directly in the interface.</p>
       <p>4.) For example, you can buy Billionaire Bears for 20.95 SOL .</p>
     </Des>
     <Des elevation={2}>
@@ -782,13 +782,13 @@ const Home = (props: HomeProps) => {
         3D objects, lands and rarities. Perhaps the most hyped space is NFT Collectable communities, a place to collect
         non-fungible tokenized that offer authorized.</p>
       <p>
-        A great comparison to understand how a Solbears NFT works is comparing it to the classic Ty Bears. Everyones
+        A great comparison to understand how a Bearsol NFT works is comparing it to the classic Ty Bears. Everyones
         favorite uniques beanie collections. I am pretty sure everyone has seen their parents or even grandparents
         holding on to a collectible Ty Bear. One of the unique things about Ty Bears and what makes some so valuable
         is due to their rarity and uniqueness. Design quirks made certain beanie babies more valuable. For example,
         Patti the Platypus came in several colors, which made buyers and collectors want to purchase the complete sets
-        of collections. Tie-dyed beanie babies, such as Peace the Bear, were also popular. This is the same thing SolBears
-        except SolBears is also a membership you can hold compatible with any Solana wallet and fully owned and tradable.
+        of collections. Tie-dyed beanie babies, such as Peace the Bear, were also popular. This is the same thing Bearsol
+        except Bearsol is also a membership you can hold compatible with any Solana wallet and fully owned and tradable.
        {/* <img style={{alignContent: "revert", alignItems:"stretch"}} src="SolBear.gif" alt="Italian Trulli"/>*/}
 
 
